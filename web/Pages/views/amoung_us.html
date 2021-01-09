@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.first_news{
+  margin-top: -20px;
+  width: 500px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>
+    <a href="index.html"><button>Back</button></a>
+  Today's Tech news
+</h2>
+</div>
+
+    <div class="card">
+      <h2>Among Us Coming to Xbox Consoles in 2021; Joins Xbox Game Pass for PC</h2>
+      <h5>Title description, Dec 19, 2020</h5>
+      <div class="fakeimg" style="height:200px;">
+        <img src="images/second_image.jpg">
+      </div>
+      <p>Among Us, the popular multiplayer game that rose to popularity this year, will be available on Xbox consoles in 2021. The announcement came soon after the game joined Xbox Game Pass for PC. Among Us will be available on Xbox One, Xbox Series X, and Xbox Series S in 2021, although the launch date has not been revealed yet. The 2018 game has been expanding and was launched for Nintendo Switch earlier this week as well.
+
+The game can be played next year onwards on Xbox consoles using Microsoft's Xbox Game Pass service. Among Us just joined Xbox Game Pass for PC as well. Xbox Game Pass will offer subscribers access to over 100 popular games on PC. Subscriptions can be availed at just Rs. 50 per month. The company updated its blog post to reflect the future availability of Among Us on Xbox consoles next year on. Among Us on Xbox One Xbox Series X, and Xbox Series S will likely feature cross-platform play.
+
+Among Us was launched on Nintendo Switch₹ 31,249 just a few days ago. It features cross-platform play on the Switch, allowing mobile, PC, and Switch users to play the game together. It can be purchased at $5 (roughly Rs. 400) through Nintendo's online store.</p>
+    
+
+</body>
+</html>

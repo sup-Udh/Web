@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- NAVBAR  -->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.first_news{
+  margin-top: -20px;
+  width: 500px;
+}
+
+.third_news{
+  margin-top: -20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Today's Tech news</h2>
+  <a href="index.html"><button>Back</button></a>
+  
+</div>
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Microsoft Edge Browser Available for Apple M1 Mac Models With Native Support</h2>
+      <div class="fakeimg" style="height:200px;">
+        <img class="third_news" src="images/edge.jpg" height="200px">
+      </div>
+      
+      <p>Microsoft Edge browser with native support is now available for Apple Silicon, the Edge developers team has announced via Twitter. The team said the native support for Mac ARM64 devices is available in the Canary channel that gets all the newest releases, including the stable ones. The update should bring an optimised performance, though the team hasn't mentioned anything about the boost in the tweet. Recently, Microsoft Office 365 apps for Mac got updates that brought performance improvements on Macs with the M1 chip.
+
+As per a tweet by Microsoft Edge developers team, the updated Microsoft Edge Web browser with native support for Apple Silicon is now available for download in Canary channel. Microsoft regularly adds features in the various development channels, and users can test all those features as soon as they are built. Other than that, there is no information available as of now.
+
+The news comes a few days after Microsoft Office 365 apps for Mac were updated for new Mac machines with Apple's new M1 chip. Microsoft detailed how these updates will bring improvements in the apps' performance, however in case of Microsoft Edge browser, it hasn't clearly stated what performance boost the browser will bring to the new machines.</p>
+    </div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

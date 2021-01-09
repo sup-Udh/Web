@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.first_news{
+  margin-top: -20px;
+  width: 500px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>
+    <a href="index.html"><button>Go Back To all news</button></a>
+  Today's Tech news
+</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Instagram Is Down Now, Users Around the World Complain of Crashes</h2>
+
+      <h5>Instagram Is Down Now, Users Around the World Complain of Crashes</h5>
+      <div class="fakeimg" style="height:200px;">
+
+        <img class="first_news" src="images/first_news.jpg" height="200px">
+      </div>
+      
+      <p>Instagram appears to be down for many users around the world. The issue appears to be unevenly distributed, with it working for some users, and not for others. The week of downtime continues with one more high-profile outage, with Instagram users turning to Twitter and other social platforms to complain about outages.
+The hashtag #Instagramdown is now trending on Twitter, and multiple Android users told us that their app has been crashing, although others have confirmed that it's still working fine.
+The official Instagram handle on Twitter has not posted anything about the outage so far, but the trending hashtag makes it clear that this is a widespread issue.
+According to the website status trackers at DownDetector, Instagram's issues started to pick up steam at around 5PM on Friday, and seem to have peaked at around 8PM.
+Instagram and other Facebook products like WhatsApp and Messenger, along with Facebook, were all down just a little earlier this month as well.
+In that outage, the downtime was largely reported in most parts of Europe, though it grew and impacted other regions as well.
+The image sharing social network is joining a number of popular platforms that have faced outages this week. We saw a major Google outage at the start of the week, and Netflix was also offline on Thursday.
+Instant messaging platform Telegram faced an outage on Thursday, and Facebook-owned Instagram has joined this growing list on Friday.</p>
+    </div>
+    
+
+</body>
+</html>
